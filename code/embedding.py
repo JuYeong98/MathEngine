@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sentence_transformers import util
 import os
-##Edited by JuYeong98##
+##Edited by JuYeong98 on Jan10##
 openai.api_key = os.getenv('OpenAI_API_Key')
 
 courses = ['18.01', '18.02', '18.03', '6.042', '18.05', '18.06', 'COMS3251']
