@@ -80,7 +80,7 @@ def execute_zero_shot(courses, questions_per,
                 q_num = '0' + str(num)
             else:
                 q_num = str(num)
-            json_location = './Data/' + course.split('_')[0] + '/' + course + '_Question_' + q_num + '.json'
+            json_location = './data/' + course.split('_')[0] + '/' + course + '_Question_' + q_num + '.json'
             with open(json_location, 'r') as f:
                 data = json.load(f)
             raw_question = data['Original question']
