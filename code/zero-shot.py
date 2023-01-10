@@ -5,7 +5,7 @@ import pandas as pd
 import time
 import argparse
 from embedding import get_embeddings, get_most_similar
-
+###Edited by JuYeong98 on Jan 10th first time
 parser = argparse.ArgumentParser()
 # if an argument is passed in as True, we do it
 parser.add_argument("--Codex")
